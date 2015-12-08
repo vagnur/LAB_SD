@@ -48,6 +48,12 @@ public class Servidor {
                 case 'b':
                 case 'c':
                 case 'd':
+                case 'A':
+                case 'B':
+                case 'C':
+                case 'D':
+                case '1':
+                case '2':
                         resultado = cache.getEntryFromCache(fromClient);
                         System.out.println("EL RESULTADO DE LA BUSQUEDA ES: "+resultado);
             
@@ -70,6 +76,12 @@ public class Servidor {
                 case 'f':
                 case 'g':
                 case 'h':
+                case 'E':
+                case 'F':
+                case 'G':
+                case 'H':
+                case '3':
+                case '4':
                         resultado = cache1.getEntryFromCache(fromClient);
                         System.out.println("EL RESULTADO DE LA BUSQUEDA ES: "+resultado);
             
@@ -92,6 +104,12 @@ public class Servidor {
                 case 'j':
                 case 'k':
                 case 'l':
+                case 'I':
+                case 'J':
+                case 'K':
+                case 'L':
+                case '5':
+                case '6':
                         resultado = cache2.getEntryFromCache(fromClient);
                         System.out.println("EL RESULTADO DE LA BUSQUEDA ES: "+resultado);
             
@@ -114,6 +132,12 @@ public class Servidor {
                 case 'n':
                 case 'o':
                 case 'p':
+                case 'M':
+                case 'N':
+                case 'O':
+                case 'P':
+                case '7':
+                case '8':
                         resultado = cache3.getEntryFromCache(fromClient);
                         System.out.println("EL RESULTADO DE LA BUSQUEDA ES: "+resultado);
             
@@ -136,6 +160,11 @@ public class Servidor {
                 case 'r':
                 case 's':
                 case 't':
+                case 'Q':
+                case 'R':
+                case 'S':
+                case 'T':
+                case '9':
                         resultado = cache4.getEntryFromCache(fromClient);
                         System.out.println("EL RESULTADO DE LA BUSQUEDA ES: "+resultado);
             
@@ -160,6 +189,13 @@ public class Servidor {
                 case 'x':
                 case 'y':
                 case 'z':
+                case 'U':
+                case 'V':
+                case 'W':
+                case 'X':
+                case 'Y':
+                case 'Z':
+                case '0':
                         resultado = cache5.getEntryFromCache(fromClient);
                         System.out.println("EL RESULTADO DE LA BUSQUEDA ES: "+resultado);
             
